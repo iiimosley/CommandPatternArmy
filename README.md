@@ -12,6 +12,12 @@ Command Pattern Army is a C# CLI game implementing the [Command](https://en.wiki
 - Install [NET 8](https://dotnet.microsoft.com/en-us/download/dotnet)
 - Build and run the application: `dotnet build && dotnet run`
 
+Or, using **Docker**:
+```sh
+# --rm will remove the container on exit
+docker run --rm -it $(docker build -q .)
+```
+
 ## How to Play
 🏰 **Goal:** Capture the enemy fort before they annihilate your army.
 
